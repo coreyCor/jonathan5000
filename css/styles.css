@@ -1,0 +1,151 @@
+.thumbnail  {
+	height: 250px;
+	width: 195px;
+}
+
+#jumbotron {
+	background-image: url("../img/sky.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 440px;
+	box-shadow: 0 0 25px 0 black;
+
+
+}
+
+.jumbotron {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:460%;
+	box-shadow: 0 0 25px 0 black;
+	background-color: #ebf2fd;
+	border: 60px solid transparent;
+    padding: 0;
+    -webkit-border-image: url("../img/christmas.gif") 20% round; /* Safari 3.1-5 */
+    -o-border-image: url("../img/christmas.gif") 20% round; /* Opera 11-12.1 */
+  	 border-image: url("../img/christmas.gif") 20% round;
+}
+
+@media(max-width: 500px) {
+	.jumbotron {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:440%;
+	box-shadow: 0 0 25px 0 black;
+	background-color: #ebf2fd;
+	border: 60px solid transparent;
+    padding: 50px;
+    -webkit-border-image: url("../img/christmas.gif") 20% round; /* Safari 3.1-5 */
+    -o-border-image: url("../img/christmas.gif") 20% round; /* Opera 11-12.1 */
+  	 border-image: url("../img/christmas.gif") 20% round;
+ }
+}
+
+
+
+
+
+
+
+.j316 {
+	
+	font-family: Spirax, Roboto, Courier, sans serif;
+	font-size: 2em;
+	color: blue;  
+	padding: 2%;
+}
+
+
+hr {
+	width: 80%;
+	text-align: center;
+}
+
+.something {
+	font-family: Spirax, Roboto, Courier;
+	color: red;
+	font-size: 2.5em;
+	font-weight: 600;
+	
+	
+}
+
+
+
+#jesus { 
+	
+	display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    box-shadow: 0 0 8px 0 black;
+   
+}
+
+footer {
+	background-color: #333;
+	text-align: center;
+	color: white;
+
+}
+
+.pfoot {
+
+	font-family: Contrail One, Courier; 
+	padding: 2%;
+}
+
+body {
+	background-color: #f7f0f0;
+
+}
+
+
+img.thumbnail {
+	box-shadow: 1px 5px 25px grey; 
+	border-radius: 0px;
+
+}
+
+.brayan {
+	border: 5px dashed red;
+	text-align: center;
+}
+
+#vid {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.underVid a {
+	font-size:1.5em;
+	font-family: Spirax, cursive;
+	text-decoration: none;
+	color: blue;
+
+}
+
+.underVid {
+	text-align: center;
+	padding: 25px;
+}
+
+
+.underVid a:hover {
+	text-decoration: none;
+	text-align: center;
+} 
+
+.pics-head {
+	font-family: Spirax, cursive, courier;
+	font-size: 2.5em;
+	color: blue;
+	text-align: center;
+}
+
+@media(max-width: 395px) {
+	.thumbnail {
+		margin: 3px;	}
+}

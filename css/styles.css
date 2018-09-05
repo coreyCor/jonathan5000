@@ -84,7 +84,7 @@ hr {
 }
 
 footer {
-	background-color: #333;
+	background-color: $color;
 	text-align: center;
 	color: white;
 
